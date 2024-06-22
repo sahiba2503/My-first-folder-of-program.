@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        border: 2px solid black;
+        box-sizing: border-box;
+        width: 150px;
+        height: 7px;
+        position: absolute;
+        top: 415px;
+        left: 300px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation-name: box;
+        animation-duration: 10s;
+        animation-timing-function: ease-in;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes box {
+        from {
+          transform: rotate(0deg);
+        }
+        25%{
+          background-color: red;
+        }
+        50%{
+          background-color: blue;
+          border: 10px solid black;
+        }
+        75%{
+          background-color: green;
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .box1 {
+        border: 2px solid black;
+        width: 5px;
+        height: 150px;
+      }
+      .box2 {
+        border: 2px solid black;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 340px;
+        left: 298px;
+        border-radius: 50%;
+      }
+      .box3 {
+        border: 2px solid black;
+        border-radius: 50%;
+        background-color: black;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 402px;
+        left: 358px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box boxx">
+      <div class="box1">box</div>
+    </div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+  </body>
+</html>

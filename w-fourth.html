@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+        
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .wp3{
+            /* border: 2px solid black; */
+            width: 100%;
+            height: 450px;
+            background-image: url("../back-g-f.jpeg");
+            background-size: 1200px 500px;
+            background-repeat: no-repeat;
+
+        }
+        .nav{
+            /* border: 2px solid black; */
+            width: 100%;
+            height: 70px;
+            padding-top: 13px;
+            display: flex;
+            /* justify-content: space-around; */
+        }
+        .parrent{
+            /* border: 2px solid plum; */
+            width: 70px;
+            height: 50px;
+            margin-left: 90px;
+            padding-top: 5px;
+                              }
+                              .red{
+                                color:blue;
+                                font-size: 25px;
+                              }
+                              #text{
+                                font-size: 10px;
+                                color: rgb(227, 152, 14);
+                              }
+                              .top-border{
+                                /* border: 2px solid red; */
+                                width: 50%;
+                                height: 50px;
+                                display: flex;
+                                justify-content: space-between;
+                                
+                                margin-left: 320px;
+                              }
+                              .home{
+                                /* border: 2px solid green; */
+                                width: 40px;
+                                height: 50px;
+                                 color: orange;
+                                 display: flex;
+                                 justify-content: center;
+                                 align-items: center;
+                              }
+                              .About{
+                                /* border: 2px solid green; */
+                                width: 42px;
+                                height: 50px;
+                                 color: orange;
+                                 display: flex;
+                                 justify-content: center;
+                                 align-items: center;
+                              }
+                              .Destination{
+                                /* border: 2px solid green; */
+                                width: 75px;
+                                height: 50px;
+                                 color: orange;
+                                 display: flex;
+                                 justify-content: center;
+                                 align-items: center;
+                              }
+                              .Tips{
+                                /* border: 2px solid green; */
+                                width: 30px;
+                                height: 50px;
+                                 color: orange;
+                                 display: flex;
+                                 justify-content: center;
+                                 align-items: center;
+                              }
+                              .Contact{
+                                /* border: 2px solid green; */
+                                width: 50px;
+                                height: 50px;
+                                 color: orange;
+                                 display: flex;
+                                 justify-content: center;
+                                 align-items: center;
+                              }
+
+                              .second-line{
+                                /* border: 2px solid black ; */
+                                width: 1100px;
+                                height: 280px;
+                                        display: flex;
+       justify-content: space-between;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 100px;
+            }
+            .second-line:hover{
+                border: 3px solid blue;
+
+            }
+      .second-l{
+        /* border: 3px solid blue; */
+        width: 39%;
+        height: 275px;
+               
+             }
+
+
+             
+             .box1{        
+       
+        font-size: 59px;
+               
+      }
+           .color1{
+        color:#ff8c00;
+      }
+      .second-b{
+        /* border: 2px solid black; */
+        box-sizing: border-box;
+        width: 50%;
+        height: 280px;
+        padding-left: 18px;
+        line-height: 25px;
+        font-size: 20px;
+             }
+             .second-b:hover{
+                /* text-decoration-line: underline;
+                text-decoration-color: blue; */
+                text-decoration: 2px solid underline blue;
+             }
+             .all-three-b{
+                /* border: 2px solid black; */
+                box-sizing: border-box;
+                width: 1100px;
+                height: 394px;
+                margin-left: 50px;
+                margin-top: 70px;
+                display: flex;
+                justify-content: space-between;
+             }
+             .f-box{
+                /* border: 2px solid black; */
+                box-sizing: border-box;
+                height: 390px;
+                width: 310px;
+               
+                
+             }
+             .f-box:hover{
+                border: 3px solid blue;
+             }
+             .picture-1{
+                /* border: 2px solid black; */
+                box-sizing: border-box;
+                width: 306px;
+                height: 185px;
+                background-image: url("../single-m.jpeg");
+                background-size: 300px 180px;
+             }
+             .date-1{
+                /* border: 2px solid black; */
+                box-sizing: border-box;
+                width: 304px;
+                height: 40px;
+                padding-top: 10px;
+                padding-left: 10px;
+             }
+             .going{
+                /* border: 2px solid black; */
+                background-color: blue;
+                color: white;
+                box-sizing: border-box;
+                width: 306;
+                height: 95px;
+                font-size: 30px; 
+                padding-left: 10px;
+                padding-top: 10px;
+             }
+             .bottom-locaton{
+                /* border: 2px solid red; */
+                box-sizing: border-box;
+                width: 306px;
+                height: 64px;
+                display: flex;
+                justify-content: space-evenly;
+                padding-top: 20px;
+             }
+             
+      .last-end-box{
+        border: 2px solid black;
+        width: 100%;
+        height: 200px;
+        margin-top: 85px;
+        display: flex;
+        
+      }
+      .box-1{
+        background-image: url("../small5.html");
+        background-size: cover;
+        width: 300px;
+        height: 196px;
+      }
+      .box-1:hover{
+        border: 3px solid blue;
+      }
+      
+      .box-2{
+        border: 2px solid black;
+        background-image: url("../small2.html");
+        background-size: cover;
+        width: 200px;
+        height: 196px;
+      }
+      .box-2:hover{
+        border: 3px solid blue;
+      }
+     
+      .box-3{
+        border: 2px solid black;
+        background-image: url("../small7.html");
+        background-size: cover;
+        width: 250px;
+        height: 196px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box-3:hover{
+        border: 3px solid blue;
+      }
+      
+      .follow{
+        border: 1px solid blue;
+        width: 170px;
+        height: 30px;
+        background-color: blue;
+        border-radius: 5px;
+        padding-top: 10px;
+        color: white;
+        padding-left: 15px;
+      }
+      .box-4{
+        border: 2px solid black;
+        background-image: url("../small8.html");
+        background-size: cover;
+        width: 200px;
+        height: 196px;
+      }
+      .box-4:hover{
+        border: 3px solid blue;
+      }
+      
+      .box-5{
+        border: 2px solid black;
+        background-image: url("../small9.html");
+        background-size: cover;
+        width: 200px;
+        height: 196px;
+      }
+      .box-5:hover{
+        border: 3px solid blue;
+      }
+      
+      .box-6{
+        border: 2px solid black;
+        background-image: url("../small7.html");
+        background-size: cover;
+        width: 100px;
+        height: 196px;
+      }
+      .box-6:hover{
+        border: 3px solid blue;
+      }
+      
+      .join{
+        /* border: 2px solid black; */
+        width: 700px;
+        display: flex;
+         font-size: 20px;
+        
+      }
+      input{
+        width: 200px;
+        height: 40px;
+        margin-left: 110px;
+      }
+      button{
+        width: 110px;
+        height: 45px;
+        margin-left: 16px;
+        background-color: blue;
+        color: white;
+        border-radius: 5px;
+      }
+      button:hover{
+        border: 3px solid blue;
+      }
+          .out-f-f{
+        /* border: 2px solid green; */
+        height: 190px;
+       }
+
+      .last-b-b{
+         /* border: 2px solid red; */
+        height: 90px;
+        margin-top: 100px;
+        width: 625px;
+        display: flex;
+        margin-left: 230px;
+
+             
+        
+      }
+      .last-b-b:hover{
+        border: 3px solid blue;
+        
+
+      }
+      .color-l{
+        color:blue;
+      }
+      .nav-footer{
+        /* border: 2px solid black; */
+        background-color: rgb(239, 238, 237);
+        height: 60px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+              }
+      .mid-footer{
+        /* border: 2px solid black; */
+        height: 400px;
+        display: flex;
+        justify-content: space-evenly;
+        background-color:rgba(57, 57, 57, 0.92) ;
+        color: rgb(193, 187, 187);
+
+      }
+      ul a {
+        display: block;
+        font-size: 12px;
+        line-height: 40px;
+            }
+           .end-footer{
+            border-top: 2px solid rgb(219, 216, 216);
+            height: 60px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgba(57, 57, 57, 0.92);
+            color: rgb(193, 187, 187);
+           }
+           .foter-b{
+            border-top: 2px solid rgb(190, 189, 189);
+           }
+           .foter-b:hover{
+            border: 3px solid blue;
+           }
+         
+
+
+
+    </style>
+</head>
+<body>
+    <div class="wp3">
+        <div class="nav">
+                <div class="parrent">
+                    <div class="red">Red</div>
+                    <p id="text">Explorers</p>
+                  </div>
+                  <div class="top-border">
+                    <div class="home">Home</div>
+                    <div class="About">About</div>
+                    <div class="Destination">Destination</div>
+                    <div class="Tips">Tips</div>
+                    <div class="Contact">Contact</div>
+                  </div>
+            </div>
+        </div> 
+        <div class="second-line">
+                
+            <div class="second-l">
+               <div class="box1">Maintaining your <br><span class="color1">privacy </span>during<br>travels.</span>
+               </div>
+            </div>
+                   <div class="second-b">
+                    lorem ipsum dolor sit amet,consectetur adipiscing elit . Sed mor mattis nec etiam ac. Bibendum tellus mi impediet amet maecenas magna toror nulla. Nec tortor ut cursus ornare nibh vivamus Quam elementum at velitviverra mattls.praesent,vitae rhoncus norbi bolutpat ante.lorem ipsum dolor sit amet,consectetur adipiscing elit . Sed mor mattis nec etiam ac. Bibendum tellus mi impediet amet maecenas magna toror nulla. Nec tortor ut cursus ornare nibh vivamus Quam elementum at velitviverra mattls .lorem ipsum dolor sit amet,consectetur adipiscing elit . Sed mor mattis nec etiam ac.lorem ipsum dolor sit amet,consectetur adipiscing elit . Sed mor mattis nec etiam ac <span class="color1">read more</span></div>
+               </div>
+               <div class="all-three-b">
+                <div class="f-box">
+                    <div class="picture-1"></div>
+                    <div class="date-1">January 15, 2019- Travel Tips</div>
+                    <div class="going">Going to the Extreme<br>The Bortherm Pole</div>
+                    <div class="bottom-locaton">
+                        <div class="f-l">
+                            <i class="fa-solid fa-location-dot"></i>
+                       North Pole
+                        </div>
+                        <div class="s-l">
+                            <i class="fa-solid fa-comments"></i>
+                       12 Comment
+                        </div>
+                        <div class="t-l">
+                            <i class="fa-solid fa-star"></i>
+                         4.8 of 5
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="f-box">
+                    <div class="picture-1"></div>
+                    <div class="date-1">January 15, 2019- Travel Tips</div>
+                    <div class="going">Going to the Extreme<br>The Bortherm Pole</div>
+                    <div class="bottom-locaton">
+                        <div class="f-l">
+                            <i class="fa-solid fa-location-dot"></i>
+                       North Pole
+                        </div>
+                        <div class="s-l">
+                            <i class="fa-solid fa-comments"></i>
+                       12 Comment
+                        </div>
+                        <div class="t-l">
+                            <i class="fa-solid fa-star"></i>
+                         4.8 of 5
+                        </div>
+                    </div>
+                </div>
+
+                <div class="f-box">
+                    <div class="picture-1"></div>
+                    <div class="date-1">January 15, 2019- Travel Tips</div>
+                    <div class="going">Going to the Extreme<br>The Bortherm Pole</div>
+                    <div class="bottom-locaton">
+                        <div class="f-l">
+                            <i class="fa-solid fa-location-dot"></i>
+                       North Pole
+                        </div>
+                        <div class="s-l">
+                            <i class="fa-solid fa-comments"></i>
+                       12 Comment
+                        </div>
+                        <div class="t-l">
+                            <i class="fa-solid fa-star"></i>
+                         4.8 of 5
+                        </div>
+                    </div>
+                </div>
+
+
+
+               </div>
+
+               <div class="all-three-b">
+                <div class="f-box">
+                    <div class="picture-1"></div>
+                    <div class="date-1">January 15, 2019- Travel Tips</div>
+                    <div class="going">Going to the Extreme<br>The Bortherm Pole</div>
+                    <div class="bottom-locaton">
+                        <div class="f-l">
+                            <i class="fa-solid fa-location-dot"></i>
+                       North Pole
+                        </div>
+                        <div class="s-l">
+                            <i class="fa-solid fa-comments"></i>
+                       12 Comment
+                        </div>
+                        <div class="t-l">
+                            <i class="fa-solid fa-star"></i>
+                         4.8 of 5
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="f-box">
+                    <div class="picture-1"></div>
+                    <div class="date-1">January 15, 2019- Travel Tips</div>
+                    <div class="going">Going to the Extreme<br>The Bortherm Pole</div>
+                    <div class="bottom-locaton">
+                        <div class="f-l">
+                            <i class="fa-solid fa-location-dot"></i>
+                       North Pole
+                        </div>
+                        <div class="s-l">
+                            <i class="fa-solid fa-comments"></i>
+                       12 Comment
+                        </div>
+                        <div class="t-l">
+                            <i class="fa-solid fa-star"></i>
+                         4.8 of 5
+                        </div>
+                    </div>
+                </div>
+
+                <div class="f-box">
+                    <div class="picture-1"></div>
+                    <div class="date-1">January 15, 2019- Travel Tips</div>
+                    <div class="going">Going to the Extreme<br>The Bortherm Pole</div>
+                    <div class="bottom-locaton">
+                        <div class="f-l">
+                            <i class="fa-solid fa-location-dot"></i>
+                       North Pole
+                        </div>
+                        <div class="s-l">
+                            <i class="fa-solid fa-comments"></i>
+                       12 Comment
+                        </div>
+                        <div class="t-l">
+                            <i class="fa-solid fa-star"></i>
+                         4.8 of 5
+                        </div>
+                    </div>
+                </div>
+               </div>
+
+               <div class="all-three-b">
+                <div class="f-box">
+                    <div class="picture-1"></div>
+                    <div class="date-1">January 15, 2019- Travel Tips</div>
+                    <div class="going">Going to the Extreme<br>The Bortherm Pole</div>
+                    <div class="bottom-locaton">
+                        <div class="f-l">
+                            <i class="fa-solid fa-location-dot"></i>
+                       North Pole
+                        </div>
+                        <div class="s-l">
+                            <i class="fa-solid fa-comments"></i>
+                       12 Comment
+                        </div>
+                        <div class="t-l">
+                            <i class="fa-solid fa-star"></i>
+                         4.8 of 5
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="f-box">
+                    <div class="picture-1"></div>
+                    <div class="date-1">January 15, 2019- Travel Tips</div>
+                    <div class="going">Going to the Extreme<br>The Bortherm Pole</div>
+                    <div class="bottom-locaton">
+                        <div class="f-l">
+                            <i class="fa-solid fa-location-dot"></i>
+                       North Pole
+                        </div>
+                        <div class="s-l">
+                            <i class="fa-solid fa-comments"></i>
+                       12 Comment
+                        </div>
+                        <div class="t-l">
+                            <i class="fa-solid fa-star"></i>
+                         4.8 of 5
+                        </div>
+                    </div>
+                </div>
+
+                <div class="f-box">
+                    <div class="picture-1"></div>
+                    <div class="date-1">January 15, 2019- Travel Tips</div>
+                    <div class="going">Going to the Extreme<br>The Bortherm Pole</div>
+                    <div class="bottom-locaton">
+                        <div class="f-l">
+                            <i class="fa-solid fa-location-dot"></i>
+                       North Pole
+                        </div>
+                        <div class="s-l">
+                            <i class="fa-solid fa-comments"></i>
+                       12 Comment
+                        </div>
+                        <div class="t-l">
+                            <i class="fa-solid fa-star"></i>
+                         4.8 of 5
+                        </div>
+                    </div>
+                </div>
+               </div>
+
+
+               <div class="last-end-box">
+                <div class="box-1"></div>
+                <div class="box-2"></div>
+                <div class="box-3">
+                  <div class="follow">follow @ instagram
+                    
+                  </div>
+                </div>
+                <div class="box-4"></div>
+                <div class="box-5"></div>
+                <div class="box-6"></div>
+            
+              </div>
+                 <div class="out-f-f">
+                <div class="last-b-b">
+                  <div class="join">
+                 <div class="join98">join <span class="color-l">98,641 </span> Readers.<br>Subscribe Today!</div>
+                <input placeholder="Email Address">
+               <button >subscribe</button>
+              </div>
+                </div>
+                </div>        
+
+                <footer class="foter-b">
+                    <div class="nav-footer"> 
+                      <div class="item">Red Explorers</div>
+                      <div class="body">Body</div>
+                      <div class="travel">Travel</div>
+                      <div class="Account">Account</div>
+                      </div>
+                    </div>
+                    <div class="mid-footer">
+                      
+                      
+                  
+                        <div class="nav-list">
+                            <ul>
+                            <a>We are location independent bloggers, digital </a>
+                            <a>influencers,small group tour organizers and</a>
+                            <a>world travelers with a serious passion for the sun, the sea and adventure.</a>
+                            <a>Eight years and 60-something countries later </a>
+                            <a>and we are still on the road.</a>
+                            <a></a>
+                          </ul>
+                          </div>
+                  
+                          <div class="nav2-list">
+                            <ul>
+                              <a>Add:2218 john hope</a>
+                              <a>street, lekki, lagos,</a>
+                              <a>Nigeria.</a><br>
+                              <a>T:+234 706 507 8544</a><br>
+                              <a>E:info@redexplorers.com</a>
+                              
+                            </ul>
+                            </div>
+                            <div class="nav3-list"> 
+                              <ul>
+                                <a>My list </a><br>
+                                <a>My Requests</a><br>
+                                <a>My Credits</a><br>
+                                <a>My Info</a><br>
+                               
+                              </ul>
+                              
+                              
+                            </div>
+                            <div class="nav4-list">
+                              <ul>
+                                <a>Mravel </a><br>
+                                <a>Why Travel</a><br>
+                                <a>Become a traveler</a><br>
+                                <a>Sow its Works</a><br>
+                                 </ul>
+                              </div>
+                    </div>
+                    <div class="end-footer"> 
+                      <div class="first-f">Sidehustle</div>
+                      <div class="second-f">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-google"></i>
+                        <i class="fa-brands fa-weebly"></i>
+                      </div>
+                      <div class="third-f">2021 RedExplorers.</div>
+                       <div class="column-c">Allrightsreserved  terms privacy SiteMap</div>
+                    </div>
+                  
+                  </footer>
+                  
+
+
+       
+</body>
+</html>
