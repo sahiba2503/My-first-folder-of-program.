@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .roll{
+    border:2px solid black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 230px;
+    left: 530px;
+    background-color: white;
+    border: 15px solid wheat;
+    border-top: 15px solid rgba(3, 27, 97, 0.804);
+    border-radius: 50%;
+    animation: spinanimation 3s ease-in 0s infinite normal ;
+    
+}
+@keyframes spinanimation{
+    from {
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg); 
+    }
+}
+.click{
+    position: absolute;
+    top: 390px;
+    left: 575px;
+
+}
+
+</style>
+
+<body>
+    <div class="roll">
+    </div>
+    <div class="click">
+        <a href="border.html"><button>click</button></a>
+    </div>
+</body>
+</html>
